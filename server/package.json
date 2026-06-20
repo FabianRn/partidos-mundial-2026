@@ -1,0 +1,10 @@
+{
+  "name": "mundial-updater",
+  "version": "1.0.0",
+  "description": "Actualiza marcadores del Mundial 2026 vía API-Football",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundial FIFA 2026 — Eliminación Directa</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="knockout">
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="header-logo">
+      <span class="header-logo-icon">26</span>
+      <div>
+        <span class="header-logo-text">Mundial 2026</span>
+        <span class="header-logo-sub">FIFA World Cup</span>
+      </div>
+    </a>
+    <nav class="header-nav">
+      <a href="index.html">Grupos</a>
+      <a href="knockout.html">Eliminación</a>
+    </nav>
+    <div class="header-info" id="header-info"><span id="api-status"></span></div>
+  </div>
+</header>
+
+<div id="update-banner" class="update-banner"></div>
+
+<main class="container">
+  <h1 class="section-title">
+    Eliminación Directa
+    <span class="badge">32 equipos · 6 rondas</span>
+  </h1>
+  <p class="section-subtitle">Dieciseisavos → Octavos → Cuartos → Semifinales → 3er Lugar → Final</p>
+
+  <div id="bracket-container" class="bracket-container"></div>
+</main>
+
+<footer class="footer">
+  <p>Mundial FIFA 2026 — Canadá, México, Estados Unidos</p>
+  <p style="margin-top:0.25rem;">FernxDev — Final: 19 de julio de 2026 — MetLife Stadium, Nueva York/Nueva Jersey</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/api-status.js"></script>
+<script src="js/bracket.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
